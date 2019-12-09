@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart City App</string>
+    <string name="API_KEY">AIzaSyBmPkKD6tfgdavTL4_D6UoF-ZGviV-DZSQ</string>
+    <string name="CLIENT_ID">PHPBYIWU32EAFDPOJXOO4CDJWV1BPJ1CC1OF0XCCBLUFHL5D</string>
+    <string name="CLIENT_Secret">HM22JEUMDLCVWSXY2CGGU3TLDYR1G24UMMEESEWYZGAK40M0</string>
+    <string name="title_activity_current_loacation">CurrentLoacation</string>
+
+</resources>
