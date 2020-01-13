@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cardview"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="24dp"
+    app:cardCornerRadius="22dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageFamous"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/time_squares">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/famousPlaceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="18dp"
+            android:textStyle="bold"
+            android:text="FamousPlace"
+            android:textSize="28dp"
+            android:textColor="#ffff">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/famousPlaceRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+
+            android:textSize="15dp"
+           android:layout_alignParentBottom="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="9dp"
+
+            android:textColor="#ffff">
+
+        </TextView>
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/famousPlaceRating"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="9dp"
+            android:textColor="#ffff"
+
+            android:textSize="14dp"
+            android:text="4.5">
+
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

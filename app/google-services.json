@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "624171659443",
+    "firebase_url": "https://smart-city-app-f828a.firebaseio.com",
+    "project_id": "smart-city-app-f828a",
+    "storage_bucket": "smart-city-app-f828a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624171659443:android:b2b719fe71256d7f0bc0c6",
+        "android_client_info": {
+          "package_name": "com.e.smartcityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624171659443-tqvra3tfajaasv3fb0apagvh3ukb5c90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.smartcityapp",
+            "certificate_hash": "1b245d9a64c17e73b92098d37cfb296e51dd261e"
+          }
+        },
+        {
+          "client_id": "624171659443-58lgpe3140chqb9kjbfg1mkkonccgbfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlDUhoJPmO_D7HAUSh9L5LAe-JTphXCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624171659443-58lgpe3140chqb9kjbfg1mkkonccgbfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624171659443:android:71bef1c1d23bcc190bc0c6",
+        "android_client_info": {
+          "package_name": "com.example.cityprofile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624171659443-immvc1uujkf72lr03nq51ej8a1s0f52i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cityprofile",
+            "certificate_hash": "1b245d9a64c17e73b92098d37cfb296e51dd261e"
+          }
+        },
+        {
+          "client_id": "624171659443-58lgpe3140chqb9kjbfg1mkkonccgbfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlDUhoJPmO_D7HAUSh9L5LAe-JTphXCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624171659443-58lgpe3140chqb9kjbfg1mkkonccgbfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624171659443:android:8c0da5d531cb8f400bc0c6",
+        "android_client_info": {
+          "package_name": "com.p.smartcitytravelers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624171659443-makrgl4b1buq1krm1v5rnggrafpklkiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.p.smartcitytravelers",
+            "certificate_hash": "37416e08f5b0c8168c063885a55f5fa3967393e4"
+          }
+        },
+        {
+          "client_id": "624171659443-58lgpe3140chqb9kjbfg1mkkonccgbfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlDUhoJPmO_D7HAUSh9L5LAe-JTphXCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624171659443-58lgpe3140chqb9kjbfg1mkkonccgbfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

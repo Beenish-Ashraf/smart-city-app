@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E43"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey"
+        android:textColor="#ffff"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:textSize="28dp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saqib!"
+        android:textColor="#ffff"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="18dp"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_below="@id/logout"
+        android:layout_toEndOf="@id/prefix">
+    </TextView>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:background="@drawable/shape"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Fmaous Cities"
+       android:textColor="#ffff"
+       android:textSize="18dp"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="18dp">
+
+   </TextView>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerViewFamousCities"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+</androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Places Near You"
+        android:textColor="#ffff"
+        android:layout_marginTop="4dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="18dp">
+    </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewPlacesNearYou"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Countries to visit"
+        android:textSize="18dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="18dp">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerViewCountriesToVisit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+<Button
+    android:id="@+id/switchBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Switch">
+
+</Button>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,4 +1,4 @@
-package com.e.smartcityapp;
+package com.p.smartcitytravelers;
 
 
 public class Image {

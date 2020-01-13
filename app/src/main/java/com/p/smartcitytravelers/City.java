@@ -1,23 +1,42 @@
-package com.e.smartcityapp;
+package com.p.smartcitytravelers;
 
 public class City {
-    private String name;
-    private String id;
     private int famousCities;
-    private double rating;
-    private int usersRated;
-    private String description;
+    private String id;
+    private String image;
 
-    public City(String name, String id, int famousCities, double rating, int usersRated, String description) {
-        this.name = name;
-        this.id = id;
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public City(int famousCities, String id, String image, String name, double rating, int usersRated) {
         this.famousCities = famousCities;
+        this.id = id;
+        this.image = image;
+        this.name = name;
         this.rating = rating;
         this.usersRated = usersRated;
-        this.description = description;
+    }
+
+    private String name;
+    private double rating;
+    private int usersRated;
+
+
+    public City(int famousCities, String id, String name, double rating, int usersRated) {
+        this.famousCities = famousCities;
+        this.id = id;
+        this.name = name;
+        this.rating = rating;
+        this.usersRated = usersRated;
     }
 
     public City() {
+
     }
 
     public String getName() {
@@ -60,11 +79,5 @@ public class City {
         this.usersRated = usersRated;
     }
 
-    public String getDescription() {
-        return description;
-    }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

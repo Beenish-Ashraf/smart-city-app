@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E43">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:padding="5dp"
+        android:background="@drawable/shape2"
+        android:hint="Email"
+        android:textColor="#000000"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginVertical="212dp"></EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:padding="5dp"
+        android:background="@drawable/shape2"
+        android:hint="Full Name"
+        android:textColor="#000000"
+        android:layout_marginLeft="25dp"
+        android:layout_marginVertical="134dp"></EditText>
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:layout_marginVertical="366dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/shape2"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="#000000"
+       />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:background="@drawable/shape2"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="#ffffff"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginVertical="285dp"></EditText>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="191dp"
+        android:layout_height="43dp"
+        android:background="@drawable/shape"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="62dp"
+        android:layout_marginVertical="466dp" />
+
+    <TextView
+        android:id="@+id/textView_smartCity2"
+        android:layout_width="234dp"
+        android:layout_height="114dp"
+        android:padding="5dp"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="113dp"
+        android:layout_marginVertical="7dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:text="Already Registered? Login here"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginVertical="523dp"></TextView>
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:text="FullName:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginVertical="102dp"></TextView>
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:text="Email:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginVertical="182dp"></TextView>
+
+    <TextView
+        android:id="@+id/passswordText"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:layout_marginVertical="253dp"
+        android:layout_marginLeft="25dp"
+        android:padding="5dp"
+        android:text="Password:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/passswordconfirmText"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:text="ConfirmPassword:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginVertical="331dp"></TextView>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:text=""
+        android:textColor="@color/colorRed"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginVertical="410dp"
+        />
+</RelativeLayout>

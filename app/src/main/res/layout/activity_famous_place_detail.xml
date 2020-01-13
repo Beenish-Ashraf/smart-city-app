@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FamousPlaceDetailActivity"
+    android:background="#2A2E43"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:id="@+id/cardview"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardCornerRadius="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="24dp"
+
+            >
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/famousPlaceDetailImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/squarebottom" />
+
+
+        <TextView
+            android:id="@+id/famousPlaceDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahore"
+            android:textSize="12dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="6dp"
+
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:id="@+id/famousPlaceDetailRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.5"
+            android:textSize="9dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="9dp"
+            android:textColor="#ffff"/>
+
+        <ImageButton
+            android:id="@+id/btn_direction"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textSize="9dp"
+            android:textColor="#ffff"
+            android:layout_alignTop="@id/famousPlaceDetailName"
+            android:layout_alignParentRight="true"
+            android:background="#1A73E8"
+            android:src="@drawable/directions"
+            >
+        </ImageButton>
+    </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        android:textSize="14dp"
+        android:textColor="#ffff"
+        />
+
+    <TextView
+        android:id="@+id/famousPlaceDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity=""
+        android:layout_marginLeft="10dp"
+        android:text="Demo detail detklajsdflkasj\nalsdjflkasf\nlakjdflkasdj\nkljkjlkjl]"
+        android:textColor="#ffff"
+        android:textSize="12dp" />
+</LinearLayout>

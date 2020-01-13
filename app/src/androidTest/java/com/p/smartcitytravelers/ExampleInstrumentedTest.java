@@ -1,4 +1,4 @@
-package com.e.smartcityapp;
+package com.p.smartcitytravelers;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.e.smartcityapp", appContext.getPackageName());
+        assertEquals("com.p.smartcitytravelers", appContext.getPackageName());
     }
 }

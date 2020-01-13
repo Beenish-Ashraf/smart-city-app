@@ -1,4 +1,4 @@
-package com.e.smartcityapp;
+package com.p.smartcitytravelers;
 
 public class FamousPlace {
 
@@ -6,6 +6,7 @@ public class FamousPlace {
     private String city_name;
     private String name;
     private String id;
+    private String image;
     private String city_id;
     private String discription;
     private double rating;
@@ -13,6 +14,26 @@ public class FamousPlace {
     private double latitude;
     private double longitude;
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public FamousPlace(String city_name, String name, String id, String image, String city_id, String discription, double rating, int usersRated, double latitude, double longitude) {
+        this.city_name = city_name;
+        this.name = name;
+        this.id = id;
+        this.image = image;
+        this.city_id = city_id;
+        this.discription = discription;
+        this.rating = rating;
+        this.usersRated = usersRated;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
 
     public FamousPlace() {
     }
